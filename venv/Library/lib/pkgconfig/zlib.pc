@@ -1,0 +1,13 @@
+prefix=D:/Projects/Streamlit-App/venv/Library
+exec_prefix=D:/Projects/Streamlit-App/venv/Library
+libdir=D:/Projects/Streamlit-App/venv/Library/lib
+sharedlibdir=D:/Projects/Streamlit-App/venv/Library/lib
+includedir=D:/Projects/Streamlit-App/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
